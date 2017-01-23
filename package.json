@@ -1,0 +1,24 @@
+{
+  "name": "phtps",
+  "version": "1.0.0",
+  "description": "Phantom Html To Pdf Server",
+  "main" : "./lib/phtps.js",
+  "bin": "./bin/phtps",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romajs/phtps.git"
+  },
+  "author": "@romajs",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "phantom-html-to-pdf": "^0.4.10",
+    "url": "^0.11.0",
+    "winston": "^2.3.1"
+  }
+}

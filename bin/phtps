@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const fs = require("fs");
+
+const Phtps = require("../lib/phtps.js");
+
+if(process.argv.length !== 3) {
+    console.log('Usage: phtps [path/to/config/file]');
+    process.exit(1);
+}
+
+var config = JSON.parse(fs.readFileSync(process.argv[2]));
+
+new Phtps().start(config);
+
+process.on('uncaughtException', function (err) {
+    console.error('Uncaught exception: %s\n', err);
+});

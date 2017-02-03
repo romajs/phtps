@@ -1,8 +1,8 @@
 {
   "name": "phtps",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Phantom Html To Pdf Server",
-  "main" : "./lib/phtps.js",
+  "main": "./lib/phtps.js",
   "bin": "./bin/phtps",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
     "extend": "^3.0.0",
     "fs": "^0.0.1-security",
     "http": "^0.0.0",
+    "path": "^0.12.7",
     "phantom-html-to-pdf": "^0.4.10",
     "url": "^0.11.0",
     "winston": "^2.3.1"

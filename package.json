@@ -1,6 +1,6 @@
 {
   "name": "phtps",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Phantom Html To Pdf Server",
   "main": "./lib/phtps.js",
   "bin": "./bin/phtps",

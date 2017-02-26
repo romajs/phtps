@@ -1,6 +1,6 @@
 # phtps
 
-[![npm](https://img.shields.io/npm/v/phtps.svg)]()
+[![npm](https://img.shields.io/npm/v/phtps.svg)](https://www.npmjs.com/package/phtps)
 
 Sample node http server for pdf generation with **phantom-html-to-pdf**
 

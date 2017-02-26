@@ -5,7 +5,7 @@
   "main": "./lib/phtps.js",
   "bin": "./bin/phtps",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,16 @@
     "fs": "^0.0.1-security",
     "http": "^0.0.0",
     "path": "^0.12.7",
-    "phantom-html-to-pdf": "^0.4.10",
+    "phantom-html-to-pdf": "^0.4.12",
     "url": "^0.11.0",
     "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0",
+    "sinon": "^1.17.7",
+    "stream": "^0.0.2"
   }
 }

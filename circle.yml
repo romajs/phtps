@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 4.2.6
+dependencies:
+  override:
+    - npm install
+    - npm install codecov@1.0.1
+test:
+  override:
+    - npm test
+  post:
+    - ./run-coverage
+    - ./node_modules/.bin/codecov

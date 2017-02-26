@@ -1,6 +1,13 @@
 # phtps
 
 [![npm](https://img.shields.io/npm/v/phtps.svg)](https://www.npmjs.com/package/phtps)
+[![CircleCI](https://img.shields.io/circleci/project/github/romajs/phtps.svg)](https://circleci.com/gh/romajs/phtps)
+[![Codecov](https://img.shields.io/codecov/c/github/romajs/phtps.svg)](https://codecov.io/gh/romajs/phtps)
+[![dependencies](https://david-dm.org/romajs/phtps.svg)](https://david-dm.org/romajs/phtps)
+[![devDependencies](https://david-dm.org/romajs/phtps/dev-status.svg)](https://david-dm.org/romajs/phtps?type=dev)
+
+[![NPM](https://nodei.co/npm/phtps.png?downloads=true)](https://nodei.co/npm/phtps/)
+
 
 Sample node http server for pdf generation with **phantom-html-to-pdf**
 

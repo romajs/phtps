@@ -5,6 +5,9 @@
   "main": "./lib/phtps.js",
   "bin": "./bin/phtps",
   "scripts": {
+    "codecov": "codecov",
+    "coverage": "istanbul cover _mocha --reporter -- -R spec",
+    "start": "./bin/phtps",
     "test": "mocha"
   },
   "repository": {
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "assert": "^1.4.1",
+    "codecov": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "request": "^2.79.0",

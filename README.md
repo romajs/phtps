@@ -66,3 +66,12 @@ Example (./example/example.config):
 Global Options: https://www.npmjs.com/package/phantom-html-to-pdf#global-options
 
 Local Options: https://www.npmjs.com/package/phantom-html-to-pdf#local-options
+
+### Development
+
+Install: `npm install`  
+Test: `npm test`  
+Code coverage: `npm run coverage`  
+Codecov: `npm run codecov`    
+Start: `npm start -- example/example.config`  
+Link: `npm link`  

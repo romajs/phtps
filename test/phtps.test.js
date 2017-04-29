@@ -24,7 +24,6 @@ describe('phtps', function() {
 	var url = 'http://127.0.0.1:8666?url=http://www.foo-bar.com';
 
 	beforeEach(function() {
-		console.info('proxy.phantom_html_to_pdf.kill:', proxy.phantom_html_to_pdf.kill)
 		this.phantom_html_to_pdf = sinon.stub(proxy, 'phantom_html_to_pdf');
 	});
  
